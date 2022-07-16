@@ -89,9 +89,13 @@ body {
   color: #ffff00;
 }
 
+.blackHeading {
+  color: black;
+}
+
 .shrinkHeadingPandM {
   margin: 0px;
-  padding: 5px;
+  padding: 12px 0 0 0;
   padding-left: 0;
 }
 

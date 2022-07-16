@@ -34,7 +34,7 @@
 /* Beginning styling of the value section of homepage */
 #valueSection {
   margin-top: 45px;
-  padding: 40px 0;
+  padding: 45px 0 60px 0;
   min-width: 100%;
   background-color: white;
   color: #000;
@@ -71,10 +71,20 @@
 
 /* Beginning of styling for the GetStarted section */
 #getStartedSection {
+  padding: 45px 0 60px 0;
   min-width: 100%;
   background-color: #f59e0b;
 }
 
+#getStartedContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#getStartedContainer {
+  margin-top: 20px;
+}
 
 /* Beginning of styling for the footer section */
 #footer {
