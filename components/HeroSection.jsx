@@ -27,7 +27,7 @@ const HeroSection = () => {
           </Link>
 
           <a href='https://github.com/oslabs-beta/evaStudio/' target='_blank' rel="noopener noreferrer" className='primaryButton'>
-            <Image src='/githubIcon.png' alt='Landscape picture' width={22} height={18} className='githubLogo' />
+            <Image src='/githubIcon.png' alt='Landscape picture' width={26} height={20} className='githubLogo' />
             <p className='github'>Fork on Github</p>
           </a>
         </div>

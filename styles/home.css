@@ -69,6 +69,13 @@
 }
 
 
+/* Beginning of styling for the GetStarted section */
+#getStartedSection {
+  min-width: 100%;
+  background-color: #f59e0b;
+}
+
+
 /* Beginning of styling for the footer section */
 #footer {
   padding: 20px 50px;
