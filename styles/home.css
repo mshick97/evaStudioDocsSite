@@ -9,14 +9,12 @@
 }
 
 .heroHeading {
-  font-size: 45px;
   display: inline;
   line-height: 50px;
 }
 
-.heroHighlight {
+.heroSpacing {
   margin-left: 15px;
-  color: #efef5d;
 }
 
 .subheadingSpan {
@@ -29,7 +27,58 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  max-width: 500px;
+}
+
+
+/* Beginning styling of the value section of homepage */
+#valueSection {
+  margin-top: 45px;
+  padding: 40px 0;
+  min-width: 100%;
+  background-color: white;
+  color: #000;
+}
+
+.valueHeadingWrappper {
+  margin-bottom: 35px;
+}
+
+.removeHeadingPandM {
+  margin: 0;
+  padding: 0;
+}
+
+.valueGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 100px;
+  row-gap: 20px;
+}
+
+.valGridItem {
   max-width: 425px;
 }
 
-/* Beginning styling of the value section of homepage */
+.valSubheading {
+  color: rgb(167, 167, 167);
+}
+
+.secondaryHeadingHighlight {
+  color: #10b981
+}
+
+
+/* Beginning of styling for the footer section */
+#footer {
+  padding: 20px 50px;
+  border-top: 1px solid gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerIcon {
+  cursor: pointer;
+}

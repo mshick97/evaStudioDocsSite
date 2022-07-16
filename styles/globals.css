@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import 'home.css';
 @import 'nav.css';
 
@@ -11,29 +12,48 @@ body {
   color: white;
   background-image: url('/gradient-bg.jpeg');
   background-repeat: no-repeat;
-  background-size: 200vh cover;
+  background-size: 300vw;
+}
+
+.h1Head {
+  font-size: 3.25rem;
+}
+
+.h2Head {
+  font-size: 2rem;
+}
+
+.h3Head {
+  font-size: 1.75;
+  font-weight: 500;
+}
+
+.h4Head {
+  font-size: 1.35rem;
 }
 
 .primaryButton {
+  font-family: 'Space Mono', monospace;
   font-size: 20px;
   text-align: center;
   text-decoration: none;
   border: 1px solid transparent;
   border-radius: 8px;
-  padding: 17px 50px;
+  padding: 17px;
   display: flex;
   flex-wrap: nowrap;
-  background-color: #efef5d;
+  background-color: #ffff00;
   color: black;
 }
 
 .primaryButton:hover {
-  background-color: white;
+  background-color: beige;
   border: 1px solid beige;
   cursor: pointer;
 }
 
 .secondaryButton {
+  font-family: 'Space Mono', monospace;
   font-size: 20px;
   text-decoration: none;
   border: 1px solid transparent;
@@ -63,4 +83,18 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.headingHighlight {
+  color: #ffff00;
+}
+
+.shrinkHeadingPandM {
+  margin: 0px;
+  padding: 5px;
+  padding-left: 0;
+}
+
+.spaceMonoFont {
+  font-family: 'Space Mono', monospace;
 }

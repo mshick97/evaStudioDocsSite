@@ -19,12 +19,12 @@
   padding: 12px 20px;
   display: flex;
   flex-wrap: nowrap;
-  background-color: #efef5d;
+  background-color: #ffff00;
   color: black;
 }
 
 .githubLink:hover {
-  background-color: white;
+  background-color: beige;
   border: 1px solid beige;
 }
 
@@ -38,7 +38,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  min-width: 370px;
+  min-width: 400px;
   margin-top: 25px;
 }
 
@@ -49,5 +49,5 @@
 }
 
 .navLink:hover {
-  color: #efef5d;
+  color: #ffff00;
 }

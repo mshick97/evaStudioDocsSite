@@ -13,16 +13,16 @@ const Nav = () => {
 
           <div id='navLinksWrapper'>
             <Link href='/getting_started/' className='navLink'>
-              <a className='navLink'>Getting Started</a>
+              <a className='navLink spaceMonoFont'>Getting Started</a>
             </Link>
 
             <Link href='/contact/' className='navLink'>
-              <a className='navLink'>Contact</a>
+              <a className='navLink spaceMonoFont'>Contact</a>
             </Link>
 
             <a href='https://github.com/oslabs-beta/evaStudio/' target='_blank' rel="noopener noreferrer" className='githubLink'>
-              <Image src='/githubIcon.png' alt='Landscape picture' width={20} height={18} className='githubLogo' />
-              <p className='github'>Github</p>
+              <Image src='/githubIcon.png' alt='Landscape picture' width={22} height={20} className='githubLogo' />
+              <p className='github spaceMonoFont'>Github</p>
             </a>
           </div>
 
