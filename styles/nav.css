@@ -1,0 +1,53 @@
+#logoLink,
+#logo {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+#navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 35px;
+}
+
+.githubLink {
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 12px 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #efef5d;
+  color: black;
+}
+
+.githubLink:hover {
+  background-color: white;
+  border: 1px solid beige;
+}
+
+.github {
+  padding-left: 5px;
+  margin: 0;
+}
+
+#navLinksWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 370px;
+  margin-top: 25px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.navLink:hover {
+  color: #efef5d;
+}

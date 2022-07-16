@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import 'home.css';
+@import 'nav.css';
 
 html,
 body {
@@ -7,57 +9,58 @@ body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   color: white;
+  background-image: url('/gradient-bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: 200vh cover;
 }
 
-#logo {
-  text-decoration: none;
-  color: white;
-}
-
-#navContainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 5px 35px;
-}
-
-#githubLink {
+.primaryButton {
+  font-size: 20px;
+  text-align: center;
   text-decoration: none;
   border: 1px solid transparent;
   border-radius: 8px;
-  padding: 12px 20px;
+  padding: 17px 50px;
   display: flex;
   flex-wrap: nowrap;
   background-color: #efef5d;
   color: black;
 }
 
-#githubLink:hover {
+.primaryButton:hover {
   background-color: white;
   border: 1px solid beige;
+  cursor: pointer;
 }
 
-#github {
-  padding-left: 5px;
-  margin: 0;
-}
-
-#navLinksWrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  min-width: 370px;
-  margin-top: 25px;
-}
-
-.navLink {
+.secondaryButton {
+  font-size: 20px;
   text-decoration: none;
-  color: white;
-  font-size: 15px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 17px 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: white;
+  color: black;
 }
 
-.navLink:hover {
-  color: #efef5d;
-  text-decoration: underline;
+.secondaryButton:hover {
+  background-color: beige;
+  border: 1px solid beige;
+  cursor: pointer;
+}
+
+.centerPageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexColCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
