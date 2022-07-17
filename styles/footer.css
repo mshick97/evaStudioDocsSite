@@ -1,0 +1,13 @@
+/* Beginning of styling for the footer section */
+#footer {
+  padding: 20px 50px;
+  border-top: 1px solid gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerIcon {
+  cursor: pointer;
+}

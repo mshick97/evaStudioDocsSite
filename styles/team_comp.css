@@ -1,0 +1,17 @@
+/* Beginning of styling for teams section */
+#teamSection {
+  background-color: white;
+  padding: 45px 0 60px 0;
+  min-width: 100%;
+}
+
+#getStartedContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.getStartedWrapper {
+  max-width: 350px;
+  margin-right: 40px;
+}

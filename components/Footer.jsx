@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Footer = () => {
   return (
     <footer id='footer'>
-      <Link href='.' id='logoLink'>
+      <Link href='.' id='logoLink' className='footerIcon'>
         <h3>evaStudio</h3>
       </Link>
 

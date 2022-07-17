@@ -12,8 +12,8 @@ const Nav = () => {
           </Link>
 
           <div id='navLinksWrapper'>
-            <Link href='/getting_started/' className='navLink'>
-              <a className='navLink spaceMonoFont'>Getting Started</a>
+            <Link href='/learn_more/' className='navLink'>
+              <a className='navLink spaceMonoFont'>Learn More</a>
             </Link>
 
             <Link href='/contact/' className='navLink'>

@@ -1,0 +1,31 @@
+/* Beginning styling of the hero section of homepage */
+#heroSection {
+  margin: 55px 50px;
+}
+
+.heroHeadingWrapper {
+  margin-top: 40px;
+  max-width: 880px;
+}
+
+.heroHeading {
+  display: inline;
+  line-height: 50px;
+}
+
+.heroSpacing {
+  margin-left: 15px;
+}
+
+.subheadingSpan {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.heroButtonWrapper {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 500px;
+}

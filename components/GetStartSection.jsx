@@ -1,17 +1,18 @@
 import React from 'react'
-import Link from 'next/link';
+import Image from 'next/image';
 
 const GetStartSection = () => {
   return (
     <section id='getStartedSection' className='flexColCenter'>
       <h3 className='h3Head blackHeading shrinkHeadingPandM spaceMonoFont'>LET'S GET STARTED</h3>
-      <h2 className='shrinkHeadingPandM blackHeading h2Head'>Leave the busy work to us.</h2>
+      <h2 className='shrinkHeadingPandM blackHeading h2Head italicHeading'>Leave the busy work to us.</h2>
 
       <div id='getStartedContainer'>
-        <h4 className='h4Head blackHeading'>Try our tool in beta</h4>
-        <Link href='/getting_started/'>
-          <button className='secondaryButton'>Get Started</button>
-        </Link>
+        {/* <h5 className='h5Head blackHeading'>Try v1 and become a contributor</h5> */}
+        <a href='https://github.com/oslabs-beta/evaStudio/' target='_blank' rel="noopener noreferrer" className='githubButWhite'>
+          <Image src='/githubIcon.png' alt='Landscape picture' width={28} height={20} className='githubLogo' />
+          <p className='github'>Fork on Github</p>
+        </a>
       </div>
 
     </section>

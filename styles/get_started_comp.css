@@ -1,0 +1,39 @@
+/* Beginning of styling for the GetStarted section */
+#getStartedSection {
+  padding: 45px 0 60px 0;
+  min-width: 100%;
+  background-color: #f59e0b;
+}
+
+#getStartedContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#getStartedContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  min-width: 500px;
+}
+
+.githubButWhite {
+  font-family: 'Space Mono', monospace;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 17px;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #ffff00;
+  color: black;
+  background-color: beige;
+}
+
+.githubButWhite:hover {
+  background-color: white;
+}
