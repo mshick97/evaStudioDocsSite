@@ -18,7 +18,7 @@ body {
   color: white;
   background-image: url('/gradient-bg.jpeg');
   background-repeat: no-repeat;
-  background-size: 400vw;
+  background-size: 420vw;
 }
 
 .h1Head {
@@ -31,7 +31,7 @@ body {
 
 .h3Head {
   font-size: 1.75rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .h4Head {
@@ -40,6 +40,10 @@ body {
 
 .h5Head {
   font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.weight500 {
   font-weight: 500;
 }
 
@@ -116,4 +120,5 @@ body {
 
 .italicHeading {
   font-style: italic;
+  font-weight: 600;
 }

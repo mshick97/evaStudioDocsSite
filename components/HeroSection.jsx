@@ -11,7 +11,7 @@ const HeroSection = () => {
         <div className='heroHeadingWrapper'>
           <h1 className='heroHeading h1Head'>Less time watching Kafka tutorials,<span className='heroHeading heroSpacing headingHighlight'>more time streaming</span>.</h1>
           <br />
-          <h4 className='h4Head spaceMonoFont'>evaStudio is an open-source, Apache Kafka playground for monitoring performance metrics in real time to test loads, decide on resources to provision, and improve processing efficiency before launching.
+          <h4 className='h4Head spaceMonoFont weight500'>evaStudio is an open-source, Apache Kafka playground for monitoring performance metrics in real time to test loads, decide on resources to provision, and improve processing efficiency before launching.
             <br />
             <br />
             <span className='subheadingSpan spaceMonoFont'>

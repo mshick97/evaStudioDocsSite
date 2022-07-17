@@ -1,6 +1,6 @@
 /* Beginning of styling for the footer section */
 #footer {
-  padding: 20px 50px;
+  padding: 50px 90px;
   border-top: 1px solid gray;
   display: flex;
   flex-direction: row;
@@ -8,6 +8,17 @@
   align-items: center;
 }
 
+#footerBranding {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+
 .footerIcon {
   cursor: pointer;
+}
+
+.brandingP {
+  font-size: .90rem;
+  color: rgb(231, 231, 231);
 }

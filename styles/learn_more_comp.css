@@ -1,6 +1,22 @@
 /* Beginning of styling for learn more section */
 #learnMoreSection {
   background-color: rgba(126, 74, 230);
-  padding: 45px 0 60px 0;
+  padding: 65px 0 60px 0;
   min-width: 100%;
+}
+
+#stepsContainer {
+  margin-top: 40px;
+  border-top: 1px solid white;
+  min-width: 1200px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 55px;
+}
+
+.stepCircle {
+  border-radius: 50%;
+  padding: 20px 27px;
+  background-color: white;
+  color: black;
 }

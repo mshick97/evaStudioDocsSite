@@ -5,9 +5,13 @@ import Image from 'next/image';
 const Footer = () => {
   return (
     <footer id='footer'>
-      <Link href='.' id='logoLink' className='footerIcon'>
-        <h3>evaStudio</h3>
-      </Link>
+
+      <div id='footerBranding'>
+        <Link href='.' id='logoLink' className='footerIcon'>
+          <h3 className='shrinkHeadingPandM'>evaStudio</h3>
+        </Link>
+        <p className='brandingP'>evaStudio is an open-source, Apache Kafka playground for monitoring performance metrics in real time to test loads, decide on resources to provision, and improve processing efficiency before launching.</p>
+      </div>
 
       <div id='footerLinks'>
         <Link href='https://github.com/oslabs-beta/evaStudio/' target='_blank' rel="noopener noreferrer" className='footerIcon'>
