@@ -1,6 +1,9 @@
 /* Beginning of styling for learn more section */
 #learnMoreSection {
-  background-color: rgba(126, 74, 230);
+  /* background-color: rgba(126, 74, 230); */
+  background-image: url('/gradient-bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 65px 0 60px 0;
   min-width: 100%;
 }

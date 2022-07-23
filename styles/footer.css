@@ -16,6 +16,8 @@
 
 .footerIcon {
   cursor: pointer;
+  padding: 15px;
+  background-color: #ffff00;
 }
 
 .brandingP {

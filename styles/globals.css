@@ -16,9 +16,9 @@ body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   color: white;
-  background-image: url('/gradient-bg.jpeg');
+  /* background-image: url('/gradient-bg.jpeg');
   background-repeat: no-repeat;
-  background-size: 420vw;
+  background-size: 420vw; */
 }
 
 .h1Head {
